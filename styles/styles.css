@@ -1,0 +1,120 @@
+.body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.pricing-container{
+    height: 5.25rem;
+    width: 7.2rem;
+    
+}
+
+
+.left-card{
+    background: rgba(235, 87, 87, 0.05);
+}
+
+.close-btn-container{
+    position: relative;
+}
+
+.modal-close-btn{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    background-color: red;
+    padding: 3px;
+}
+
+
+.my-font{
+    font-weight: 600;
+    font-size: 1.56rem;
+}
+
+
+
+.my-second-font {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #585858;
+
+}
+
+
+
+.my-pricing-font{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.my-pricing-font-enterprise{
+    font-family: 'Inter', sans-serif;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+
+.my-pricing-free{
+    color: #03A30A;
+}
+
+.my-pricing-pro {
+    color: #F28927;
+}
+
+.my-pricing-enterprise{
+    color: #EB5757;
+}
+
+/* exp */
+.accuracy-container{
+    position: relative;
+}
+.accuracy{
+    width: 8.75rem;
+    height: 2rem;
+    position: absolute;
+    font-size: 16px;
+    background-color: #EB5757;
+    top: 2px;
+    right: 2px;
+    
+}
+
+
+.arrow-color{
+    color: #EB5757;
+    background-color: #FEF7F7;
+}
+
+.my-footer-color{
+    background-color: #FFFFFF;
+}
+
+
+
+@media only screen and (max-width: 300px) {
+    .my-font{
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .my-second-font {
+        font-size: .7rem;
+    }
+    .my-pricing-font{
+        font-weight: 500;
+        font-size: .6rem;
+    }
+    .my-pricing-font-enterprise{
+        font-weight: 500;
+        font-size: .5rem;
+    }
+  }
+
+
+
+
+
+
+
